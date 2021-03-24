@@ -1,0 +1,14 @@
+.photo {
+    height:40px;
+    width: 40px;
+}
+
+.logoSize {
+    height: 280px;
+    width: 280px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: medium;
+}

@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.pagination {
+  margin: 10px;
+  display: flex;
+  list-style: none;
+  outline: none;
+  width: 32%;
+}
+
+.pagination > .active > a{
+  background-color: #ff5a1d;
+  border-color: #ff5a1d;
+  color: white !important;
+}
+
+.pagination:hover > li:hover > a:hover{
+  background-color: #addfff;
+  color: #ff5a1d !important;
+  font-weight: bold;
+}
+
+.pagination > li > a {
+  border: 1px solid #ff5a1d;
+  border-radius: 25px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #428bca !important;
+} 
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #ff5a1d;
+  border-color: #ff5a1d;
+  border-radius: 25px;
+  outline: none;
+}
+
+.pagination > li > a, .pagination > li > span {
+  color: #ff5a1d;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: 25px;
+}
+
+.issues{
+  font-weight: bold;
+  color:  	#428bca;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.issuesBox{
+  width: 40%; 
+  margin: auto;
+  border: 5px solid #ff5a1d;
+  padding: 10px;
+  margin-top: 20px;
+}
+.issues:hover {
+  background-color: #ff5a1d;
+  color: white;
+}
+
+.modalStyle {
+  color: #fff;
+  width: 500px;
+  margin: auto;
+  background: #ff5a1d;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+h2, h3 {
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #ff0000;
+}
+
+.detailsStyle {
+  padding: 20px;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 3px dashed #addfff !important;
+}
