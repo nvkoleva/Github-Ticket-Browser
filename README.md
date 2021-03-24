@@ -6,12 +6,12 @@ Screenshots of localhost run included.
 ---
 👩🏻‍💻
 
-# Nikoleta Koleva
-# Issue Browser
-# 3 March 2021
+👩🏻 Nikoleta Koleva
+🔎 Issue Browser
+📅 3 March 2021
 
-⚠
-Please note, I have not zipped the node modules necessary to run this app, in order to decrease its size. The necessary modules to install are:
+
+⚠ Please note, I have not zipped the node modules necessary to run this app, in order to decrease its size. The necessary modules to install are:
 - npm/yarn (can install rest w npm or yarn)
 - axios
 The following should be pre-installed when a react app is installed:
@@ -19,7 +19,7 @@ The following should be pre-installed when a react app is installed:
 - reactjs-popup
 
 
-# ⚠ Please do not plagiarize or use without credit. 
+# ⚠ Please do not plagiarize or use without credit. ⚠
 
 #### Set-up ####
 
