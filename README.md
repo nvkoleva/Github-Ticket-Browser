@@ -1,15 +1,16 @@
-# Github-Ticket-Browser
+# 🔍 Github-Ticket-Browser 🔎
 Simple ReactJS app to crawl through a git repo and display github tickets in a different interface. Original use was for integration into a larger already-existing corporate website - this has been simplified to just be the ticket browser and display. HTTP requests are done through axios. The API call is not included - message me if you want to run it.
 
 Screenshots of localhost run included.
 
 ---
-
+👩🏻‍💻
 
 # Nikoleta Koleva
 # Issue Browser
 # 3 March 2021
 
+⚠
 Please note, I have not zipped the node modules necessary to run this app, in order to decrease its size. The necessary modules to install are:
 - npm/yarn (can install rest w npm or yarn)
 - axios
@@ -18,7 +19,7 @@ The following should be pre-installed when a react app is installed:
 - reactjs-popup
 
 
-# Please do not plagiarize or use without credit.
+# ⚠ Please do not plagiarize or use without credit. 
 
 #### Set-up ####
 
